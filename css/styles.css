@@ -4,13 +4,45 @@ body {
    color: #434455; 
    font-size: 16px;
    line-height: 1.5;
+   margin: 0 ;
 }
 
 a {
     text-decoration:none;
+    list-style-type: none;
 }
 ul{
     list-style-type: none;
+margin-top: 0;
+margin-bottom: 0;
+padding-left: 0;
+}
+
+h1,
+h2,
+h3{
+margin-top: 0;
+margin-bottom: 0;
+}
+
+p{
+    margin-top: 0;
+margin-bottom: 0;
+}
+
+
+.page-header{
+    display: flex;
+}
+.container-header
+{
+border-bottom: 1px solid var(--cornflower, #E7E9FC);
+ max-width:1440px;
+margin: 0 auto;
+display: flex;
+height: 72px;
+flex-shrink: 0;
+
 }
 .accent {
     
@@ -31,32 +63,53 @@ ul{
         text-transform: uppercase;
         color:#4d5ae5;
         text-decoration: none;
+        padding-top: 25.5px;
+        padding-bottom: 25.5px;
+        margin-right: 76px;
+        
+}
+
+.navigation-menu{
+    display: flex;
+     gap: 40px;
+     margin-right:332px ;
+     margin-left: 76px;
+
 }
 
 .site-nav {   
     letter-spacing: 0.32;
     font-weight: 500;
+   display: flex;
         
 }
 
 .site-nav-menu-list{
     letter-spacing: 0.02em;
     color: #434455;
+    padding-right:40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: flex;
+    
 }
 .site-nav-menu-list:hover,
 .site-nav-menu-list:focus{
     color: #404bbf;
 }
 
-.site-nav-studio{
+.nav-link{
     color: #2E2F42;
         font-family: Roboto;
         font-weight: 500;
         letter-spacing: 0.02em;
+        display: flex;
+        padding: 24 ;
+        
 }
 
-.site-nav-studio:hover,
-.site-nav-studio:focus
+.nav-link:hover,
+.nav-link:focus
 {
    color: #404bbf;
 }
@@ -65,11 +118,17 @@ ul{
      font-weight: 400;
      letter-spacing: 0.32px;
      font-style: normal;
+     display: flex;
 }
 
+.container-address{
+    display: flex;
+    gap:40px;
+}
 .adress-header-mail{
     color: #434455;
    text-decoration: none;
+   display: flex;
 
 }
 .adress-header-mail:hover,
@@ -89,6 +148,7 @@ color:#404bbf;
 
 .adress-header-tel{
     color: #434455;
+    display: flex;
 }
 .adress-header-tel:hover,
 .adress-header-tel:focus {

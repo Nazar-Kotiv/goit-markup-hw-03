@@ -18,35 +18,41 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="./css/styles.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
+
+    <link rel="stylesheet" href="./css/styles.css" />
 
     <title>Homework#2</title>
   </head>
   <body>
-    <header>
+    <div class="container-header">
+    <header class="page-header">
       <nav class="site-nav">
         <a href="./index.html" class="logotipe"
           >Web<span class="accent">Studio</span></a
         >
-        <ul>
+        <ul class="navigation-menu">
           <li class="site-nav-menu-list">
-            <a class="site-nav-studio" href="./index.html">Studio</a>
+            <a class="nav-link" href="./index.html">Studio</a>
           </li>
           <li class="site-nav-menu-list">
-            <a class="site-nav-studio" href="">Portfolio</a>
+            <a class="nav-link" href="">Portfolio</a>
           </li>
           <li class="site-nav-menu-list">
-            <a class="site-nav-studio" href="">Contacts</a>
+            <a class="nav-link" href="">Contacts</a>
           </li>
         </ul>
       </nav>
 
+      
       <address class="address">
-        <ul>
+        <ul class="container-address">
           <li class="adress-header-mail">
             <a class="adress-header-link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
@@ -59,6 +65,7 @@
           </li>
         </ul>
       </address>
+      </div>
     </header>
 
     <main>
@@ -71,7 +78,7 @@
       </section>
       <!-- Section Text -->
       <section class="section-text">
-        <h2>Features</h2>
+        <hnav-link
         <ul>
           <li>
             <h3 class="title">Strategy</h3>
