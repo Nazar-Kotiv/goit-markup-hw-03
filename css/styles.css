@@ -30,6 +30,18 @@ p{
 margin-bottom: 0;
 }
 
+.container{
+max-width: 1158px;
+padding-left: 0;
+padding-right: 0;
+margin-left: 0;
+margin-right: 0;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0 15;;
+}
 
 .page-header{
     display: flex;
@@ -113,18 +125,24 @@ flex-shrink: 0;
 {
    color: #404bbf;
 }
+
+.container-address{
+    display: flex;
+    gap: 40px;
+}
 .address {
     color: #434455;
      font-weight: 400;
      letter-spacing: 0.32px;
      font-style: normal;
      display: flex;
+    height: 72px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
 }
 
-.container-address{
-    display: flex;
-    gap:40px;
-}
+
 .adress-header-mail{
     color: #434455;
    text-decoration: none;
@@ -156,6 +174,10 @@ color:#404bbf;
 }
 .section-hero {
     background:#2E2F42;
+        height: 600px;
+        flex-shrink: 0;
+        display: flex;
+    
 }
 
 .page-title {
@@ -165,6 +187,12 @@ color:#404bbf;
         font-weight: 700;
         line-height: 1.07;
         letter-spacing: 0.02em;
+        text-align: center;
+        width: 496px;
+        margin-bottom: 48px;
+        margin-top: 188px;
+        margin-left: 472px;
+        margin-right: 472px;
 }
 
 .button-order-service {
@@ -175,6 +203,12 @@ color:#404bbf;
     font-family: "Roboto", sans-serif;
     cursor: pointer;
     line-height: 1.5;
+    padding: 16px 32px;
+    border-radius: 4px;
+    display: inline-flex;
+    gap: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
 }
 
 .button-order-service:hover,
@@ -182,6 +216,17 @@ color:#404bbf;
     background-color: #404BBF;
 }
 
+.section-text{
+    height: 104px;
+    flex-shrink: 0;
+    display: flex;
+}
+.section-text-list{
+    width: calc((100% - 72px) / 4);
+    display: flex;
+    flex-wrap:wrap;
+    gap: 24px;
+}
 
 .section-text .title{
     font-size: 20px;
@@ -189,12 +234,16 @@ color:#404bbf;
     letter-spacing: 0.4px;
     line-height: 1.2;
     color:#2e2f42;
+    width: 264px;
+    display: flex;
 
 }
 .section-page-text{
     font-weight: 400;
     color: #434455;
     letter-spacing: 0.02em;
+    width: 264px;
+    display: flex;
 }
 
 .section-our-team{
