@@ -42,15 +42,16 @@ margin: 0 auto;
 
 .page-header{
     display: flex;
+    border-bottom: 1px solid #e7e9fc
 }
 .container-header
 {
-border-bottom: 1px solid var(--cornflower, #E7E9FC);
  max-width:1158px;
 margin: 0 auto;
 display: flex;
 height: 72px;
 flex-shrink: 0;
+padding: 0 15px
 
 }
 .accent {
@@ -83,6 +84,7 @@ flex-shrink: 0;
      gap: 40px;
      margin-right:332px ;
      margin-left: 76px;
+    padding: 24px 0;
 
 }
 
@@ -90,6 +92,7 @@ flex-shrink: 0;
     letter-spacing: 0.32;
     font-weight: 500;
    display: flex;
+align-items: center;
         
 }
 
@@ -171,9 +174,9 @@ color:#404bbf;
 }
 .section-hero {
     background:#2E2F42;
-        height: 600px;
         flex-shrink: 0;
         display: flex;
+        padding: 188px 0
     
 }
 
@@ -185,7 +188,7 @@ color:#404bbf;
         line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
-        width: 496px;
+        max-width: 496px;
         margin-bottom: 48px;
         margin-top: 188px;
         margin-left: auto;
@@ -207,6 +210,9 @@ color:#404bbf;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     margin-left: auto;
     margin-right: auto;
+    min-width: 169px;
+    height: 56px;
+    border: none;
 
 }
 
@@ -218,17 +224,21 @@ color:#404bbf;
 .section-text{
     flex-shrink: 0;
     display: flex;
+    padding: 120px 0;
 
 }
+ .section-page-list{
+width: calc((100% - 72px) / 4);
+
+
+ }
 .section-text-list{
-    width: calc((100% - 72px) / 4);
-    gap: 24px;
-    display: flex;
-    padding-top: 120px;
-    padding-bottom: 120px;
+display: flex;
+gap: 24px;
+
 }
 
-.section-text .title{
+.section-text-title{
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 0.4px;
@@ -236,6 +246,7 @@ color:#404bbf;
     color:#2e2f42;
     width: 264px;
     display: flex;
+    margin-bottom: 8px;
 
 }
 .section-page-text{
@@ -250,7 +261,7 @@ color:#404bbf;
     background-color: #F4F4FD;
     flex-shrink: 0;
     display: flex;
-    padding:120px;
+    padding: 120px 0;
  
 }
 
@@ -262,14 +273,14 @@ color:#404bbf;
     align-items: center;
     flex-direction: column;
      justify-content: center;
-    display: inline-flex;
+    display:flex;
 }
 
 .our-team-list{
     
-    display: inline-flex;
+    display: flex;
         align-items: center;
-        gap: 32px;
+     gap: 24px;
         border-radius: 0px 0px 4px 4px;
    
 }
@@ -283,6 +294,7 @@ text-align: center;
 background-color: #F4F4FD;
 color:#2e2f42;
 margin-bottom: 72px;
+text-align: center;
 }
 
 .container-our-team-text{
@@ -313,6 +325,8 @@ margin-bottom: 72px;
     letter-spacing: 0.4px;
     color:#2e2f42;
     line-height: 1.2;
+    margin-bottom: 8px;
+    text-align: center;
 }
 
 .section-portfolio{
@@ -320,7 +334,8 @@ margin-bottom: 72px;
     font-weight: 400;
     letter-spacing: 0.32px;
     display: flex;
-    padding: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
     flex-shrink: 0;
 }
 .section-portfolio-text{
@@ -353,7 +368,8 @@ display:flex;
     align-items: flex-start;
     gap: 32px;
     flex-shrink: 0;
-    border: 1px solid var(--cornflower, #E7E9FC);
+   
+    
 }
 .container-portfolio-text{
     display: flex;
@@ -363,7 +379,9 @@ display:flex;
         align-items: flex-start;
         gap: 8px;
         align-self: stretch;
-        padding: 32px;
+      padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+
 }
 
 .section-portfolio .section-copirate-text{
@@ -372,6 +390,7 @@ display:flex;
     letter-spacing: 0.4px;
     color:#2e2f42;
     line-height: 1.2;
+    margin-bottom: 8px;
 }
 
 .footer-page{
@@ -379,6 +398,7 @@ display:flex;
     background: #2E2F42;
     font-weight: 400;
     letter-spacing: 0.32px;
+    padding: 100px 0;
     
     
 }
@@ -390,7 +410,7 @@ display:flex;
         letter-spacing: 0.54;
         text-transform: uppercase;
         color: #F4F4FD;
-        display: flex;
+        display:inline-block;
          
 }
 .logotipe-footer{
@@ -401,13 +421,13 @@ display:flex;
         letter-spacing: 0.54px;
         text-transform: uppercase;
         color: #4d5ae5;
-        display: flex;
-        padding-top: 100px;
+    display: inline-block;
+    margin-bottom: 16px;
+       
         
 }
 .footer-page-text{
     letter-spacing: 0.02em;
-  padding-bottom: 100px;
   display: block;
   width: 264px;
     flex-shrink: 0;
