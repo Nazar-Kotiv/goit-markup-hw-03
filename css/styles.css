@@ -37,6 +37,7 @@ img{
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
+    width: 100%;
 }
 
 
@@ -52,6 +53,7 @@ img{
     height: 72px;
     flex-shrink: 0;
     padding: 0 15px;
+    
 
 }
 .accent {
@@ -109,8 +111,7 @@ img{
     font-weight: 500;
     letter-spacing: 0.02em;
     display: flex;
-    padding: 24px 0;
-        
+    padding: 24px 0;    
 }
 
 .nav-link:hover,
